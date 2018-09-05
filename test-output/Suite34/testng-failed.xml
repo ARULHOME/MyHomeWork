@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite34]" parallel="classes">
+  <test thread-count="5" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="testcases.TC005_EditLead">
+        <methods>
+          <include name="EditLead"/>
+        </methods>
+      </class> <!-- testcases.TC005_EditLead -->
+      <class name="testcases.TC002_CreadLead">
+        <methods>
+          <include name="close"/>
+          <include name="EditLead"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testcases.TC002_CreadLead -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite34] -->
