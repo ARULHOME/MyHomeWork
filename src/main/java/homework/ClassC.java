@@ -20,7 +20,7 @@ public class ClassC extends ClassA {
 			System.out.println("day after tomorrow");
 		}
 		
-		public void method2(int a) {
+		public static void method2() {
 			
 			System.out.println("VU Tv");
 			

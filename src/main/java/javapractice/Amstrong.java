@@ -1,9 +1,16 @@
 package javapractice;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Amstrong {
-	public static void main(String[] args) {
+	
+	 Amstrong(){
+		
+		System.out.println("yuyuguiu");
+	}
+	
+	public static void main(String[] args)throws IOException {
 		// TODO Auto-generated method stub
 		int n, count =0,a,b,c ,sum=0;
 		Scanner sc = new Scanner(System.in);

@@ -16,7 +16,7 @@ public class ClassA {
 		
 		//overloading menthods
 		
-		public void method2() {
+		public  static void method2() {
 			System.out.println("lg tv");
 		}
 		

@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class Palindrome_Day3 {
 
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
+		Scanner scan=new Scanner(System.in);
 		System.out.println("Enter the Number:");		
-		int PoliNumber=sc.nextInt();
+		int PoliNumber=scan.nextInt();
 		
 		int n=PoliNumber;
 			

@@ -7,15 +7,15 @@ public class CodingChallenge_Day1 {
 
 	public static void main(String[] args) {
 	Scanner scan= new Scanner(System.in);
-	int i, a,b,c;
+	int i, n1,n2,n3;
 	System.out.println("Enter the  Number1#");
-	a=scan.nextInt();
+	n1=scan.nextInt();
 	System.out.println("Enter the  Number2#");
-	b=scan.nextInt();
-	for( i=1; i<=b;i++)
+	n2=scan.nextInt();
+	for( i=1; i<=n2;i++)
 	{	
-		c=i*a;
-		System.out.println(i+"*"+a+"="+c);
+		n3=i*n1;
+		System.out.println(i+"*"+n1+"="+n3);
 	
 	}
 		scan.close();
